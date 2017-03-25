@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/Workspace/wet-surface-glsl/src/external/AntTweakBar-1.16/include/AntTweakBar.h
+stddef.h
+-
+string
+-
+string
+-
+
+/data/Workspace/wet-surface-glsl/src/external/AntTweakBar-1.16/src/MiniGLFW.h
+
+/data/Workspace/wet-surface-glsl/src/external/AntTweakBar-1.16/src/TwEventGLFW.c
+MiniGLFW.h
+/data/Workspace/wet-surface-glsl/src/external/AntTweakBar-1.16/src/MiniGLFW.h
+AntTweakBar.h
+-
+

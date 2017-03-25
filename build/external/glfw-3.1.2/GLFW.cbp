@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="GLFW" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw-3.1.2\;CMake Files\external\glfw-3.1.2\src\;CMake Files\external\glfw-3.1.2\docs\;CMake Files\external\glfw-3.1.2\examples\;CMake Files\external\glfw-3.1.2\tests\;CMake Files\external\assimp-3.0.1270\;CMake Files\external\assimp-3.0.1270\contrib\;CMake Files\external\assimp-3.0.1270\contrib\zlib\;CMake Files\external\assimp-3.0.1270\code\;CMake Files\external\bullet-2.81-rev2613\;CMake Files\external\bullet-2.81-rev2613\src\;CMake Files\external\bullet-2.81-rev2613\src\BulletSoftBody\;CMake Files\external\bullet-2.81-rev2613\src\BulletCollision\;CMake Files\external\bullet-2.81-rev2613\src\BulletDynamics\;CMake Files\external\bullet-2.81-rev2613\src\LinearMath\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfw">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/libglfw3.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add option="-D_GLFW_USE_CONFIG_H" />
+            <Add directory="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 glfw" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfw/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/libglfw3.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add option="-D_GLFW_USE_CONFIG_H" />
+            <Add directory="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 glfw/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="heightmap">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/heightmap" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 heightmap" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="heightmap/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/heightmap" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 heightmap/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gears">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/gears" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 gears" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gears/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/gears" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 gears/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="particles">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/particles" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 particles" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="particles/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/particles" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 particles/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wave">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/wave" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 wave" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="wave/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/wave" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 wave/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="boing">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/boing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 boing" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="boing/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/boing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 boing/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/simple" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 simple" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/simple" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 simple/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="splitview">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/splitview" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 splitview" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="splitview/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/splitview" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 splitview/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/examples/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="windows">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/windows" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 windows" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="windows/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/windows" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 windows/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sharing">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/sharing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 sharing" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sharing/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/sharing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 sharing/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="title">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/title" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 title" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="title/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/title" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 title/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="threads">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/threads" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 threads" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="threads/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/threads" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 threads/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="empty">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/empty" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 empty" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="empty/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/empty" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 empty/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msaa">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/msaa" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 msaa" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="msaa/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/msaa" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 msaa/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tearing">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/tearing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 tearing" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tearing/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/tearing" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 tearing/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="events">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/events" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 events" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="events/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/events" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 events/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/gamma" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 gamma" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gamma/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/gamma" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 gamma/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfwinfo">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/glfwinfo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 glfwinfo" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfwinfo/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/glfwinfo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="iconify">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/iconify" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 iconify" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="iconify/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/iconify" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 iconify/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="monitors">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/monitors" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 monitors" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="monitors/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/monitors" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 monitors/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cursor">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/cursor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 cursor" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cursor/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/cursor" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 cursor/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="joysticks">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/joysticks" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 joysticks" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="joysticks/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/joysticks" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 joysticks/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clipboard">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/clipboard" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clipboard" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clipboard/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/clipboard" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clipboard/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reopen">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/reopen" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 reopen" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reopen/fast">
+         <Option output="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/reopen" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DTW_STATIC" />
+            <Add option="-DTW_NO_LIB_PRAGMA" />
+            <Add option="-DTW_NO_DIRECT3D" />
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-D_CRT_SECURE_NO_WARNINGS" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps" />
+            <Add directory="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 reopen/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/data/Workspace/wet-surface-glsl/build/external/glfw-3.1.2/src/glfw_config.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps/getopt.c">
+         <Option target="particles"/>
+         <Option target="msaa"/>
+         <Option target="tearing"/>
+         <Option target="events"/>
+         <Option target="gamma"/>
+         <Option target="glfwinfo"/>
+         <Option target="iconify"/>
+         <Option target="monitors"/>
+         <Option target="clipboard"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps/getopt.h">
+         <Option target="particles"/>
+         <Option target="msaa"/>
+         <Option target="tearing"/>
+         <Option target="events"/>
+         <Option target="gamma"/>
+         <Option target="glfwinfo"/>
+         <Option target="iconify"/>
+         <Option target="monitors"/>
+         <Option target="clipboard"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps/glad.c">
+         <Option target="heightmap"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps/glad/glad.h">
+         <Option target="heightmap"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps/tinycthread.c">
+         <Option target="particles"/>
+         <Option target="threads"/>
+         <Option target="empty"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/deps/tinycthread.h">
+         <Option target="particles"/>
+         <Option target="threads"/>
+         <Option target="empty"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/boing.c">
+         <Option target="boing"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/gears.c">
+         <Option target="gears"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/heightmap.c">
+         <Option target="heightmap"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/particles.c">
+         <Option target="particles"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/simple.c">
+         <Option target="simple"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/splitview.c">
+         <Option target="splitview"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/wave.c">
+         <Option target="wave"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include/GLFW/glfw3.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include/GLFW/glfw3native.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/context.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glx_context.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glx_context.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/init.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/input.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/internal.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/linux_joystick.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/linux_joystick.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/monitor.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/posix_time.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/posix_time.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/posix_tls.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/posix_tls.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/window.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/x11_init.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/x11_monitor.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/x11_platform.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/x11_window.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/xkb_unicode.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/xkb_unicode.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/clipboard.c">
+         <Option target="clipboard"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/cursor.c">
+         <Option target="cursor"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/empty.c">
+         <Option target="empty"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/events.c">
+         <Option target="events"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/gamma.c">
+         <Option target="gamma"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/glfwinfo.c">
+         <Option target="glfwinfo"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/iconify.c">
+         <Option target="iconify"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/joysticks.c">
+         <Option target="joysticks"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/monitors.c">
+         <Option target="monitors"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/msaa.c">
+         <Option target="msaa"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/reopen.c">
+         <Option target="reopen"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/sharing.c">
+         <Option target="sharing"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/tearing.c">
+         <Option target="tearing"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/threads.c">
+         <Option target="threads"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/title.c">
+         <Option target="title"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/windows.c">
+         <Option target="windows"/>
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glfw3Config.cmake.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glfw_config.h.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glfw3.pc.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glfw3Config.cmake.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glfw_config.h.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/glfw3.pc.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\src\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/docs/Doxyfile.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\docs\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/docs/Doxyfile.in">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\docs\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\examples\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\examples\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\tests\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\glfw-3.1.2\tests\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/assimp-3.0.1270/contrib/zlib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\assimp-3.0.1270\contrib\zlib\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/assimp-3.0.1270/code/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\assimp-3.0.1270\code\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\BulletSoftBody\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/bullet-2.81-rev2613/src/BulletCollision/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\BulletCollision\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\BulletDynamics\" />
+      </Unit>
+      <Unit filename="/data/Workspace/wet-surface-glsl/src/external/bullet-2.81-rev2613/src/LinearMath/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\external\bullet-2.81-rev2613\src\LinearMath\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
