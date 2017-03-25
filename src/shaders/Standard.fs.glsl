@@ -17,9 +17,13 @@ out vec3 color;
 
 uniform vec3 lightPosition_worldspace;
 
+float basicNoise(vec2 co){
+    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}
+
 void main() {
     vec3 lightColor = vec3(1, 1, 1);
-    float lightPower = 70.0f;
+    float lightPower = 20.0f;
 
     vec3 materialDiffuseColor = vdata.color.rgb;
     vec3 materialAmbientColor = vec3(0.3, 0.3, 0.3) * materialDiffuseColor;
@@ -37,7 +41,16 @@ void main() {
 
     float cosAlpha = clamp(dot(e,r), 0, 1);
 
+    float F0 = 0.5;
+    vec3 h = normalize(e+l);
+    float base = 1 - dot(e, h);
+    float exponential = pow(base, 5.0);
+    float fresnel = exponential + F0 * (1.0 - exponential);
+
+
     color = materialAmbientColor
-	    + materialDiffuseColor * lightColor * lightPower * cosTheta / (distance * distance)
-	    + materialSpecularColor * lightColor * lightPower * pow(max(0.0, cosAlpha), 50) / (distance * distance);
+	    + (materialDiffuseColor + lightColor) * lightPower * cosTheta / (distance * distance)
+	    + ((materialSpecularColor + lightColor) * basicNoise(vdata.position.xy)*5
+		* lightPower * pow(max(0.0, cosAlpha), 100) / (distance * distance))
+		* fresnel;
 }

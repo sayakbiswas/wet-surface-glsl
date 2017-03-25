@@ -239,7 +239,7 @@ void renderScene() {
     } else {
         glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     }
-    glm::vec3 lightPos = glm::vec3(5.0f, 15.0f, 5.0f);
+    glm::vec3 lightPos = glm::vec3(5.0f, 20.0f, 5.0f);
     glm::mat4x4 modelMatrix = glm::mat4(1.0);
     glUseProgram(programID);
     {
