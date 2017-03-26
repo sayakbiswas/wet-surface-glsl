@@ -358,7 +358,7 @@ int initWindow() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    window = glfwCreateWindow(window_width, window_height, "PN Triangles", NULL, NULL);
+    window = glfwCreateWindow(window_width, window_height, "Wet Surface", NULL, NULL);
     if(window == NULL) {
         fprintf(stderr, "Failed to open GLFW window.\n");
         glfwTerminate();
