@@ -83,6 +83,10 @@ CMakeFiles/wet-surface.dir/common/objloader.cpp.o: /data/Workspace/wet-surface-g
 CMakeFiles/wet-surface.dir/common/objloader.cpp.o: /data/Workspace/wet-surface-glsl/src/external/glm-0.9.7.1/glm/vec4.hpp
 CMakeFiles/wet-surface.dir/common/objloader.cpp.o: /data/Workspace/wet-surface-glsl/src/external/glm-0.9.7.1/glm/vector_relational.hpp
 
+CMakeFiles/wet-surface.dir/common/texture.cpp.o: /data/Workspace/wet-surface-glsl/src/common/texture.cpp
+CMakeFiles/wet-surface.dir/common/texture.cpp.o: /data/Workspace/wet-surface-glsl/src/external/glew-1.13.0/include/GL/glew.h
+CMakeFiles/wet-surface.dir/common/texture.cpp.o: /data/Workspace/wet-surface-glsl/src/external/glfw-3.1.2/include/GLFW/glfw3.h
+
 CMakeFiles/wet-surface.dir/common/vboindexer.cpp.o: /data/Workspace/wet-surface-glsl/src/common/vboindexer.cpp
 CMakeFiles/wet-surface.dir/common/vboindexer.cpp.o: /data/Workspace/wet-surface-glsl/src/common/vboindexer.hpp
 CMakeFiles/wet-surface.dir/common/vboindexer.cpp.o: /data/Workspace/wet-surface-glsl/src/external/glm-0.9.7.1/glm/common.hpp

@@ -77,7 +77,7 @@ all: CMakeFiles/wet-surface.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wet-surface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wet-surface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : CMakeFiles/wet-surface.dir/rule
@@ -144,7 +144,7 @@ external/preinstall: external/bullet-2.81-rev2613/src/LinearMath/preinstall
 external/CMakeFiles/GLEW_1130.dir/all:
 	$(MAKE) -f external/CMakeFiles/GLEW_1130.dir/build.make external/CMakeFiles/GLEW_1130.dir/depend
 	$(MAKE) -f external/CMakeFiles/GLEW_1130.dir/build.make external/CMakeFiles/GLEW_1130.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num= "Built target GLEW_1130"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=37 "Built target GLEW_1130"
 .PHONY : external/CMakeFiles/GLEW_1130.dir/all
 
 # Include target in all.
@@ -154,7 +154,7 @@ all: external/CMakeFiles/GLEW_1130.dir/all
 
 # Build rule for subdir invocation for target.
 external/CMakeFiles/GLEW_1130.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 external/CMakeFiles/GLEW_1130.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/CMakeFiles/GLEW_1130.dir/rule
@@ -471,7 +471,7 @@ clean: external/glfw-3.1.2/examples/CMakeFiles/particles.dir/clean
 external/glfw-3.1.2/examples/CMakeFiles/wave.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/examples/CMakeFiles/wave.dir/build.make external/glfw-3.1.2/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/examples/CMakeFiles/wave.dir/build.make external/glfw-3.1.2/examples/CMakeFiles/wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num= "Built target wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=95 "Built target wave"
 .PHONY : external/glfw-3.1.2/examples/CMakeFiles/wave.dir/all
 
 # Include target in all.
@@ -481,7 +481,7 @@ all: external/glfw-3.1.2/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/examples/CMakeFiles/wave.dir/rule
@@ -704,7 +704,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/windows.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num= "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=91 "Built target sharing"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all
 
 # Include target in all.
@@ -714,7 +714,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/rule
@@ -741,7 +741,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/sharing.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/title.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/title.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/title.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/title.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=95 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num= "Built target title"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/title.dir/all
 
 # Include target in all.
@@ -751,7 +751,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/title.dir/rule
@@ -1222,7 +1222,7 @@ clean: external/glfw-3.1.2/tests/CMakeFiles/clipboard.dir/clean
 external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build.make external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=91 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num= "Built target reopen"
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all
 
 # Include target in all.
@@ -1232,7 +1232,7 @@ all: external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/rule
@@ -1332,7 +1332,7 @@ external/assimp-3.0.1270/code/preinstall:
 external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all: external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) -f external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/depend
 	$(MAKE) -f external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target assimp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target assimp"
 .PHONY : external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all
 
 # Include target in all.
@@ -1342,7 +1342,7 @@ all: external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all
 
 # Build rule for subdir invocation for target.
 external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/rule
@@ -1387,7 +1387,7 @@ external/bullet-2.81-rev2613/src/BulletSoftBody/preinstall:
 external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all:
 	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/depend
 	$(MAKE) -f external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=35,36,37 "Built target BulletSoftBody"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=35,36 "Built target BulletSoftBody"
 .PHONY : external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all
 
 # Include target in all.
@@ -1397,7 +1397,7 @@ all: external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.d
 
 # Build rule for subdir invocation for target.
 external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
@@ -1552,7 +1552,7 @@ external/bullet-2.81-rev2613/src/LinearMath/preinstall:
 external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/all:
 	$(MAKE) -f external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/depend
 	$(MAKE) -f external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=38,39,40 "Built target LinearMath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/Workspace/wet-surface-glsl/build/CMakeFiles --progress-num=38,39 "Built target LinearMath"
 .PHONY : external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/all
 
 # Include target in all.
@@ -1562,7 +1562,7 @@ all: external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/all
 
 # Build rule for subdir invocation for target.
 external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /data/Workspace/wet-surface-glsl/build/CMakeFiles 0
 .PHONY : external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/rule

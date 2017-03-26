@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/wet-surface.dir/wet_surface.cpp.o"
   "CMakeFiles/wet-surface.dir/common/objloader.cpp.o"
   "CMakeFiles/wet-surface.dir/common/vboindexer.cpp.o"
+  "CMakeFiles/wet-surface.dir/common/texture.cpp.o"
   "wet-surface.pdb"
   "wet-surface"
 )

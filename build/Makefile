@@ -623,6 +623,33 @@ common/objloader.cpp.s:
 	$(MAKE) -f CMakeFiles/wet-surface.dir/build.make CMakeFiles/wet-surface.dir/common/objloader.cpp.s
 .PHONY : common/objloader.cpp.s
 
+common/texture.o: common/texture.cpp.o
+
+.PHONY : common/texture.o
+
+# target to build an object file
+common/texture.cpp.o:
+	$(MAKE) -f CMakeFiles/wet-surface.dir/build.make CMakeFiles/wet-surface.dir/common/texture.cpp.o
+.PHONY : common/texture.cpp.o
+
+common/texture.i: common/texture.cpp.i
+
+.PHONY : common/texture.i
+
+# target to preprocess a source file
+common/texture.cpp.i:
+	$(MAKE) -f CMakeFiles/wet-surface.dir/build.make CMakeFiles/wet-surface.dir/common/texture.cpp.i
+.PHONY : common/texture.cpp.i
+
+common/texture.s: common/texture.cpp.s
+
+.PHONY : common/texture.s
+
+# target to generate assembly for a file
+common/texture.cpp.s:
+	$(MAKE) -f CMakeFiles/wet-surface.dir/build.make CMakeFiles/wet-surface.dir/common/texture.cpp.s
+.PHONY : common/texture.cpp.s
+
 common/vboindexer.o: common/vboindexer.cpp.o
 
 .PHONY : common/vboindexer.o
@@ -726,6 +753,9 @@ help:
 	@echo "... common/objloader.o"
 	@echo "... common/objloader.i"
 	@echo "... common/objloader.s"
+	@echo "... common/texture.o"
+	@echo "... common/texture.i"
+	@echo "... common/texture.s"
 	@echo "... common/vboindexer.o"
 	@echo "... common/vboindexer.i"
 	@echo "... common/vboindexer.s"

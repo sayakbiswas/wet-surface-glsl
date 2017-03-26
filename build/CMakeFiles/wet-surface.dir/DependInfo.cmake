@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/data/Workspace/wet-surface-glsl/src/common/objloader.cpp" "/data/Workspace/wet-surface-glsl/build/CMakeFiles/wet-surface.dir/common/objloader.cpp.o"
+  "/data/Workspace/wet-surface-glsl/src/common/texture.cpp" "/data/Workspace/wet-surface-glsl/build/CMakeFiles/wet-surface.dir/common/texture.cpp.o"
   "/data/Workspace/wet-surface-glsl/src/common/vboindexer.cpp" "/data/Workspace/wet-surface-glsl/build/CMakeFiles/wet-surface.dir/common/vboindexer.cpp.o"
   "/data/Workspace/wet-surface-glsl/src/wet_surface.cpp" "/data/Workspace/wet-surface-glsl/build/CMakeFiles/wet-surface.dir/wet_surface.cpp.o"
   )

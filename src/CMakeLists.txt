@@ -43,6 +43,7 @@ add_executable(wet-surface
 	wet_surface.cpp
 	common/objloader.cpp
 	common/vboindexer.cpp
+	common/texture.cpp
 	shaders/Standard.vs.glsl
 	shaders/Standard.fs.glsl
 )
