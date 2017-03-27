@@ -103,7 +103,7 @@ void main() {
 
 
     color = materialAmbientColor
-	    + (materialDiffuseColor + lightColor) * lightPower * cosTheta / (distance * distance)
+	    + 0.5 * (materialDiffuseColor + lightColor) * lightPower * cosTheta / (distance * distance)
 	    + ((materialSpecularColor + lightColor) * basicNoise(vdata.position.xy) * 20
 		* lightPower * pow(max(0.0, cosAlpha), 200) / (distance * distance))
 		* fresnel;
