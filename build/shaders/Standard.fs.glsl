@@ -18,7 +18,7 @@ out vec3 color;
 uniform vec3 lightPosition_worldspace;
 
 float basicNoise(vec2 co){
-    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
+    return 0.5 + 0.5 * fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
 }
 
 //3D Value Noise generator by Morgan McGuire @morgan3d
@@ -61,11 +61,11 @@ float fnoise(vec3 x) {
 
 void main() {
     vec3 lightColor = vec3(1, 1, 1);
-    float lightPower = 20.0f;
+    float lightPower = 50.0f;
 
     vec3 materialDiffuseColor = vdata.color.rgb;
-    vec3 materialAmbientColor = vec3(0.3, 0.3, 0.3) * materialDiffuseColor;
-    vec3 materialSpecularColor = vec3(0.5, 0.5, 0.5) * materialDiffuseColor;
+    vec3 materialAmbientColor = vec3(0.1, 0.1, 0.1) * materialDiffuseColor;
+    vec3 materialSpecularColor = vec3(0.3, 0.3, 0.3);
 
     float distance = length(lightPosition_worldspace - position_worldspace);
 
@@ -103,8 +103,8 @@ void main() {
 
 
     color = materialAmbientColor
-	    + 0.5 * (materialDiffuseColor + lightColor) * lightPower * cosTheta / (distance * distance)
-	    + ((materialSpecularColor + lightColor) * basicNoise(vdata.position.xy) * 20
+	    + 0.5 * (materialDiffuseColor * lightColor) * lightPower * cosTheta / (distance * distance)
+	    + ((materialSpecularColor * lightColor) * basicNoise(vdata.position.xy) * 20
 		* lightPower * pow(max(0.0, cosAlpha), 200) / (distance * distance))
 		* fresnel;
 
